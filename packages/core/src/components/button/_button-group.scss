@@ -157,12 +157,12 @@
     &.#{$ns}-outlined {
       > .#{$ns}-popover-wrapper:first-child .#{$ns}-button,
       > .#{$ns}-button:first-child {
-        border-radius: $pt-border-radius $pt-border-radius 0 0;
+        border-radius: $pt-border-radius-medium $pt-border-radius-medium 0 0;
       }
 
       > .#{$ns}-popover-wrapper:last-child .#{$ns}-button,
       > .#{$ns}-button:last-child {
-        border-radius: 0 0 $pt-border-radius $pt-border-radius;
+        border-radius: 0 0 $pt-border-radius-medium $pt-border-radius-medium;
       }
     }
 

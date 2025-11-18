@@ -56,8 +56,8 @@ $compound-tag-left-intent-colors: (
   }
 
   .#{$ns}-compound-tag-left {
-    border-bottom-left-radius: $pt-border-radius;
-    border-top-left-radius: $pt-border-radius;
+    border-bottom-left-radius: $pt-border-radius-medium;
+    border-top-left-radius: $pt-border-radius-medium;
     margin-right: 0; // override pt-tag() pt-flex-container() style
 
     > #{$icon-classes} {
@@ -66,8 +66,8 @@ $compound-tag-left-intent-colors: (
   }
 
   .#{$ns}-compound-tag-right {
-    border-bottom-right-radius: $pt-border-radius;
-    border-top-right-radius: $pt-border-radius;
+    border-bottom-right-radius: $pt-border-radius-medium;
+    border-top-right-radius: $pt-border-radius-medium;
     flex-grow: 1;
     padding: ($pt-spacing * 0.5) $pt-spacing;
 

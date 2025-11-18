@@ -69,7 +69,9 @@ a base value of `4px`. Custom components should adhere to the relevant `height` 
 
 -   `$pt-spacing` (base unit: 4px)
 -   `$pt-grid-size` **[DEPRECATED]** (10px - use `$pt-spacing` instead)
--   `$pt-border-radius`
+-   `$pt-border-radius` **[DEPRECATED]** (2px - use `$pt-border-radius-small` instead)
+-   `$pt-border-radius-small`
+-   `$pt-border-radius-medium`
 -   `$pt-button-height`
 -   `$pt-button-height-large`
 -   `$pt-input-height`

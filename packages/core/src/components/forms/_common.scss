@@ -87,7 +87,7 @@ $control-group-stack: (
   appearance: none;
   background: $input-background-color;
   border: none;
-  border-radius: $pt-border-radius;
+  border-radius: $pt-border-radius-medium;
   box-shadow: input-transition-shadow($input-shadow-color-focus), $pt-input-box-shadow;
   color: $input-color;
   font-size: $pt-font-size;

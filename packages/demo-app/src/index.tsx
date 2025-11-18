@@ -16,9 +16,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import { BlueprintProvider, FocusStyleManager } from "@blueprintjs/core";
-
-import { Examples } from "./examples/Examples";
+import { BlueprintProvider, FocusStyleManager, KeyComboTag } from "@blueprintjs/core";
+import { Flex } from "@blueprintjs/labs/lib/esm/components/flex/flex";
 
 FocusStyleManager.onlyShowFocusOnTabs();
 
@@ -32,8 +31,16 @@ const root = createRoot(container);
     root.render(
         <StrictMode>
             <BlueprintProvider>
-                <Examples />
+                <Demo />
             </BlueprintProvider>
         </StrictMode>,
     );
 })();
+
+function Demo() {
+    return (
+        <Flex padding={5}>
+            <KeyComboTag combo="⌘K" />
+        </Flex>
+    );
+}
